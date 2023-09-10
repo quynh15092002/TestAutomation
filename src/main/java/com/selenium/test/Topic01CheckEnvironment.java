@@ -28,6 +28,7 @@ public class Topic01CheckEnvironment {
 
     @Test
     public void TC_01_ValidateCurrentUrl() {
+        String abc = "abc";
         String loginPageUrl = driver.getCurrentUrl();
         Assert.assertEquals(loginPageUrl, "https://demo.guru99.com/v4/");
     }
