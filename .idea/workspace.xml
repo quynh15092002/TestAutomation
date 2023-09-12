@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b900172c-7362-4ed7-a866-71dfd846e545" name="Changes" comment="test bcd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/Check1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/Topic01CheckEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/selenium/test/Topic01CheckEnvironment.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1694342925380" duration="263000" />
       <workItem from="1694343202229" duration="423000" />
       <workItem from="1694320320294" duration="519000" />
-      <workItem from="1694430537321" duration="4244000" />
+      <workItem from="1694430537321" duration="6075000" />
     </task>
     <task id="LOCAL-00001" summary="test abc">
       <created>1694320433821</created>
