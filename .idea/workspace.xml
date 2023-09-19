@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b900172c-7362-4ed7-a866-71dfd846e545" name="Changes" comment="test bcd">
+    <list default="true" id="b900172c-7362-4ed7-a866-71dfd846e545" name="Changes" comment="Check Test1">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_reload4j_reload4j_1_2_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/TestCoincome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/TestLoginCoincome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/CheckEnvironment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/test/CheckEnvironment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/selenium/test/Check.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/CheckEnvironment1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/selenium/test/CheckEnvironment1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/Topic01CheckEnvironment.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +46,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2VCZEziqQ2mCLB4KJojDF3TTHAI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +57,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/hoang/Selenium Tutorials&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -55,21 +72,8 @@
       <recent name="C:\Users\hoang\Selenium Tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Check1">
-    <configuration name="Check1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.selenium.test.Check1" />
-      <module name="selenium-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.selenium.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic01CheckEnvironment" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestLoginCoincome">
+    <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-app" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +82,79 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.selenium.test" />
-      <option name="MAIN_CLASS_NAME" value="com.selenium.test.Topic01CheckEnvironment" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.TestLogin" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginCoincome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.TestLoginCoincome" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginCoincome.TC02_CheckValidate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.TestLoginCoincome" />
+      <option name="METHOD_NAME" value="TC02_CheckValidate" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginCoincome.TC02_LoginSuccesful" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.TestLoginCoincome" />
+      <option name="METHOD_NAME" value="TC02_LoginSuccesful" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin.TC2_CheckValidate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.TestLogin" />
+      <option name="METHOD_NAME" value="TC2_CheckValidate" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -88,8 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Check1" />
-        <item itemvalue="TestNG.Topic01CheckEnvironment" />
+        <item itemvalue="TestNG.TestLoginCoincome" />
+        <item itemvalue="TestNG.TestLoginCoincome.TC02_CheckValidate" />
+        <item itemvalue="TestNG.TestLogin" />
+        <item itemvalue="TestNG.TestLogin.TC2_CheckValidate" />
+        <item itemvalue="TestNG.TestLoginCoincome.TC02_LoginSuccesful" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +184,15 @@
       <workItem from="1694342925380" duration="263000" />
       <workItem from="1694343202229" duration="423000" />
       <workItem from="1694320320294" duration="519000" />
-      <workItem from="1694430537321" duration="6075000" />
+      <workItem from="1694430537321" duration="7047000" />
+      <workItem from="1694490023937" duration="11666000" />
+      <workItem from="1694529449231" duration="1209000" />
+      <workItem from="1694568038010" duration="600000" />
+      <workItem from="1694587503898" duration="6353000" />
+      <workItem from="1694662138010" duration="1849000" />
+      <workItem from="1694741123834" duration="17237000" />
+      <workItem from="1695018176522" duration="1004000" />
+      <workItem from="1695093168886" duration="9523000" />
     </task>
     <task id="LOCAL-00001" summary="test abc">
       <created>1694320433821</created>
@@ -143,5 +229,21 @@
     <MESSAGE value="test abc" />
     <MESSAGE value="test bcd" />
     <option name="LAST_COMMIT_MESSAGE" value="test bcd" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/selenium/test/TestCoincome.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/selenium/test/TestLoginCoincome.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
