@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -24,6 +25,7 @@ public class CheckEnvironment1 {
 
     @Test
     public void TC_01_ValidateCurrentUrl() {
+        //Check URL
         String abc = "abc";
         String bcd = "abc";
         String loginPageUrl = driver.getCurrentUrl();
@@ -32,6 +34,8 @@ public class CheckEnvironment1 {
 
     @Test
     public void TC_02_ValidatePageTitle() {
+        // Check Title
+        //Checl Title Fail
         String loginPageTitle = driver.getTitle();
         Assert.assertEquals(loginPageTitle, "Guru99 Bank Home Page");
     }
@@ -48,6 +52,7 @@ public class CheckEnvironment1 {
     @AfterClass
     public void afterClass() {
         driver.quit();
+        
     }
 
 
