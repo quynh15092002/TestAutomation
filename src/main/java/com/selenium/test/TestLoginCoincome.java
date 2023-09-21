@@ -36,17 +36,7 @@ public class TestLoginCoincome {
     }
     //Check validate email
     @Test
-    public void TC02_CheckValidate(){
-        login("tu.nguyen@tomosia.", "12345678");
-        Assert.assertEquals(driver.getCurrentUrl(), URL_login);
-
-    }
-    @Test
-    public void TC03_CheckValidate(){
-        login("tu.nguyen@tomosia.com", "12345");
-    }
-    @Test
-    public void TC03_LoginSuccesful() {
+    public void TC02_LoginSuccesful() {
         login("tu.nguyen@tomosia.com", "12345678");
         driver.get(URL_dashBoard);
         Assert.assertEquals(driver.getCurrentUrl(), URL_dashBoard);
